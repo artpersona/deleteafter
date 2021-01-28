@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+}
+
+.logo {
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.bg-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  z-index: -1;
+}
+.bg_video {
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
